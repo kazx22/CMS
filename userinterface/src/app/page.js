@@ -10,9 +10,9 @@ export default function Home() {
     {
       id: "card-1",
       type: "Card",
-      props: { label: "Click Me-1" },
+      props: { label: "Drag Me-1" },
     },
-    { id: "card-2", type: "Card", props: { label: "Click Me-2" } },
+    { id: "card-2", type: "Card", props: { label: "Drag Me-2" } },
   ];
 
   const [availItems, setAvailItems] = useState(initialItems);
@@ -56,7 +56,7 @@ export default function Home() {
     <DndContext onDragEnd={handleDragEnd}>
       <div className="flex gap-10 p-8">
         <Droppable id="available">
-          <h2 className="text-xl font-semibold mb-4">Available Items</h2>
+          <h2 className="text-xl font-semibold mb-6">Droppable Zone</h2>
           <div className="flex flex-col items-star gap-2 max-w-sm">
             {availItems.map((item) => (
               <Draggable key={item.id} id={item.id}>
@@ -67,7 +67,7 @@ export default function Home() {
         </Droppable>
 
         <Droppable id="droppable">
-          <h2 className="text-xl font-semibold mb-4">Dropped Items</h2>
+          <h2 className="text-xl font-semibold mb-6">Droppable Zone</h2>
           <div className="flex flex-col items-star gap-2 max-w-sm">
             {dropItems.map((item) => (
               <Draggable key={item.id} id={item.id}>
