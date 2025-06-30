@@ -37,11 +37,11 @@ A simple React (Next.js) application that lets you **drag and drop components** 
 ```bash
 # Clone the repo
 
-git clone https://github.com/your-username/drag-drop-app.git
+[git clone https://github.com/your-username/CMS.git](https://github.com/kazx22/CMS.git)
 
 # Navigate into the project
 
-cd drag-drop-app
+cd cms/userInterface
 
 # Install dependencies
 
