@@ -34,6 +34,7 @@ A simple React (Next.js) application that lets you **drag and drop components** 
 
 ## 📦 Installation
 
+```bash
 # Clone the repo
 
 git clone https://github.com/your-username/drag-drop-app.git
@@ -51,6 +52,8 @@ npm install
 npm run dev
 
 Open http://localhost:3000 to see the app in action.
+
+```
 
 ## 📄 License
 
